@@ -132,3 +132,13 @@ body {
     box-shadow: var(--shadow1);
     cursor: pointer;
 }
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bottom .my-info {
+    display: flex;
+    align-items: center;
+}
